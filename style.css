@@ -1,0 +1,27 @@
+main {
+  margin-top: 200px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
